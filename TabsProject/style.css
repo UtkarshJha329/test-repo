@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #D8D9CF;
+    color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    background-color: gray;
+    width: 1vw;
+    margin-top: 80px;
+}
+
+.navbarlist {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.image{
+    display: flex;
+    width: 624px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    border-radius: 4px;
+    width: 624px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.section-center {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1000px;
+}
+
+@media (max-width: 600px){
+
+    .header {
+        width: 100%;
+    }
+
+    .section-center{
+        flex-direction: column;
+    }
+}
+
+
+.total-tabs {
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEDED;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+.button, .buttonlive {
+    width: 33.33%;
+    background-color: #FF8787;
+    border: 0px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.5s linear, color 0.5s linear;
+}
+
+.tabs .button:nth-child(1){
+    border-top-left-radius: 4px;
+}
+
+.tabs .button:nth-child(3){
+    border-top-right-radius: 4px;
+}
+
+.button:hover{
+    background-color: #E0144C;
+    color: white;
+}
+
+.buttonlive {
+    background-color: #EDEDED;
+    color: black;
+}
+
+.content {
+    display: none;
+}
+
+.contentlive {
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.tabimagedead {
+    display: none;
+}
+
+.tabimagealive {
+    display: block;
+}
