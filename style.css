@@ -2,39 +2,61 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    background-color: #D8D9CF;
+    background-color: black;
     color: rgb(44, 44, 44);
     display: flex;
     flex-direction: column;
 }
 
 .header {
-    background-color: gray;
+    background-color: #FF8787;
     width: 100%;
     margin-top: 80px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.navbarlist {
+.navbar-list {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: grey;
+    text-align: center;
 }
 
-li {
+.navbar-list li {
     float: left;
+    transition: background-color 1s linear;
 }
 
-li a {
+.navbar-list li a {
     display: block;
     color: white;
     padding: 20px 16px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: black;
+.navbar-list li a:hover {
+    background-color: #E0144C;
+}
+
+.about-section {
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://blog.ndepend.com/wp-content/uploads/global-coding-standards-2-960x460.jpg);
+}
+
+.about-section p {
+    font-size: 45px;
+    background-color: rgb(93, 93, 145);
 }
 
 .image{
@@ -57,7 +79,6 @@ img {
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    margin-top: 1000px;
 }
 
 @media (max-width: 600px){
@@ -70,7 +91,8 @@ img {
 .total-tabs {
     display: flex;
     flex-direction: column;
-    background-color: #EDEDED;
+    background-color: black;
+    color: white;
     width: 100%;
     border-radius: 4px;
 }
@@ -104,8 +126,8 @@ img {
 }
 
 .buttonlive {
-    background-color: #EDEDED;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .content {
@@ -124,4 +146,47 @@ img {
 
 .tabimagealive {
     display: block;
+}
+
+.contact-section {
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    padding-bottom: 20px;
+}
+
+.contact-section ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-section ul li {
+    float: left;
+    padding-left: 20px;
+}
+
+.whatsapp-logo{
+    width: 20px;
+    display: inline;
+    background-color: #D8D9CF;
+    border-radius: 20px;
+}
+
+.email-logo{
+    width: 20px;
+    display: inline;
+    background-color: #D8D9CF;
+    border-radius: 20px;
+}
+
+.linkedin-logo{
+    width: 20px;
+    display: inline;
+    background-color: #D8D9CF;
+    border-radius: 20px;
 }
