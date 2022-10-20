@@ -39,7 +39,7 @@ li a:hover {
 
 .image{
     display: flex;
-    width: 624px;
+    width: 100%;
     margin-right: 20px;
     justify-content: center;
 }
@@ -47,7 +47,7 @@ li a:hover {
 img {
     display: block;
     border-radius: 4px;
-    width: 624px;
+    width: 100%;
     object-fit: cover;
     object-position: center;
 }
@@ -71,7 +71,7 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #EDEDED;
-    width: 130%;
+    width: 100%;
     border-radius: 4px;
 }
 
