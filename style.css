@@ -6,12 +6,11 @@ body {
     color: rgb(44, 44, 44);
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 .header {
     background-color: gray;
-    width: 1vw;
+    width: 100%;
     margin-top: 80px;
 }
 
@@ -19,6 +18,8 @@ body {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
+    background-color: grey;
 }
 
 li {
@@ -60,11 +61,6 @@ img {
 }
 
 @media (max-width: 600px){
-
-    .header {
-        width: 100%;
-    }
-
     .section-center{
         flex-direction: column;
     }
@@ -75,7 +71,7 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #EDEDED;
-    width: 100%;
+    width: 130%;
     border-radius: 4px;
 }
 
