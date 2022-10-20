@@ -85,6 +85,11 @@ img {
     .section-center{
         flex-direction: column;
     }
+
+    .about-section p {
+        font-size: 24px;
+        background-color: rgb(93, 93, 145);
+    }
 }
 
 
