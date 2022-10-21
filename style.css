@@ -43,6 +43,10 @@ body {
     background-color: #E0144C;
 }
 
+.about {
+    margin: 30px;
+}
+
 .about-section {
     margin: 40px 0px;
     display: flex;
@@ -194,4 +198,20 @@ img {
     display: inline;
     background-color: #D8D9CF;
     border-radius: 20px;
+}
+
+.github-logo{
+    width: 20px;
+    display: inline;
+    background-color: #D8D9CF;
+    border-radius: 20px;
+}
+
+.linkedin-link, .github-link {
+    text-decoration: none;
+    color: #D8D9CF;
+}
+
+.linkedin-link:hover, .github-link:hover {
+    text-decoration: underline;
 }
